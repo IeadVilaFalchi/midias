@@ -46,6 +46,7 @@ header {
        letter-spacing: 4px;
        text-shadow: black 0.1em 0.1em 0.2em;
 }
+
 .container-botoes{
     display: flex;
     flex-direction: column;
@@ -73,4 +74,42 @@ header {
     color: black;
     text-shadow: gray 0.1em 0.1em 0.2em;
     
+}
+.voltar{
+    width: 4.5em;
+    min-height: 1em;
+    font-family: FlavorSans;
+    letter-spacing: 4px;
+    padding: 1em;
+    font-size: 1em;
+    margin: 1em;
+    border: 0;
+    border-radius: 2px;
+    box-shadow:  black 0.1em 0.1em 0.2em;
+    background-color: gray;
+    color: #ffffff;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    /* margin-left: 40em; */
+    margin-top: 2em;
+    text-align: center;
+}
+.home{
+    display: flex;
+    justify-content: center;
+    width: 10em;
+    
+}
+.home button:hover{
+    background-color:rgb(255, 153, 0) ;
+    color: #ffffff;
+    text-shadow: gray 0.1em 0.1em 0.2em;
+    
+}
+footer{
+    background: #ffffff;
+    padding: 0.3em 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 100%;
 }
